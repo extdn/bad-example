@@ -19,7 +19,7 @@ class BeforeResponse implements \Magento\Framework\Event\ObserverInterface
     public function execute(
         \Magento\Framework\Event\Observer $observer
     ) {
-        sleep(5);
+        sleep(10);
     }
 }
 
