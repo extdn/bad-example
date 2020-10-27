@@ -1,0 +1,16 @@
+{
+    "name": "extdn/module-badexample",
+    "description": "",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Extdn\\BadExample\\": "src/"
+        }
+    }
+}
