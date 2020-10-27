@@ -5,9 +5,9 @@
  */
 declare(strict_types=1);
 
-namespace Extdn\BadExample\Observer\Catalog;
+namespace Extdn\BadExample\Observer;
 
-class ProductLoadAfter implements \Magento\Framework\Event\ObserverInterface
+class BeforeResponse implements \Magento\Framework\Event\ObserverInterface
 {
 
     /**

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
-	<event name="catalog_product_load_after">
-		<observer instance="Extdn\BadExample\Observer\Catalog\ProductLoadAfter" name="extdn_badexample_observer_catalog_productloadafter_catalog_product_load_after"/>
+	<event name="controller_front_send_response_before">
+		<observer instance="Extdn\BadExample\Observer\BeforeResponse" name="extdn_badexample_observer"/>
 	</event>
 </config>
