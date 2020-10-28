@@ -10,6 +10,9 @@ namespace Extdn\BadExample\Model;
 class Example
 {
 
+    /**
+     * @var \Magento\Framework\Filesystem\Io\File
+     */
     private $file;
 
     /**
